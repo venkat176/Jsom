@@ -73,7 +73,7 @@ $(document).ready(function(){
       
               
       if (phone.length < 1) {
-        $('#Phoneid').after('<span class="pherror">			This field is required*</span>');
+        $('#Phoneid').after('<span class="pherror">This field is required*</span>');
         isValid = false;
       }
       
