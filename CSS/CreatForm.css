@@ -1,0 +1,172 @@
+﻿html, body {
+	max-width: 100%;
+    overflow-x: hidden;
+}
+.swal-button {
+  display:flex;
+  justify-content:center !important;
+  margin-right:35px;
+}
+swal-button--cancel{
+	border:0px !important;
+}
+.header h3{
+	font-weight:normal;
+	color:#ffffff;	
+	text-align:center;
+	margin:0px;
+}
+
+.header{
+	margin-bottom:50px;
+	margin-top:50px;
+	background-color:#333945;
+	padding:3px;
+	border-radius:3px;
+}
+.formgrid{
+	border:1px solid #CC0000;
+	margin-bottom:50px;
+	margin-top:50px;
+	border-radius:6px;
+	
+}
+body{
+	font-family:sans-serif;
+}
+label{
+
+	font-size:18px;
+	margin-right:30px;
+	width:175px;
+	position:relative;
+	top:5px;
+	font-size:20px;
+}
+.inputCls{
+	
+	border: 1px solid #hviy67 !important;
+	/*background-color:#F8F6F3 !important;*/
+	padding:0px;
+	font-size:18px;
+	color:#000000;
+	height:45px;
+	width:300px;
+		
+}
+#Addressid{
+	height:80px;
+	
+}
+#Usernameid{
+	color:#000000;
+	border: 1px solid #hviy67 !important;
+	
+}
+textarea {
+	resize:none;
+	overflow:hidden;
+	border: black solid #F8F6F3 !important;
+}
+.row{
+	margin-bottom:20px;
+}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-inner-spin-button{
+	-webkit-appearance:none;
+	margin:0;
+}
+.container{
+	background-color:#EAF0F1;
+	width:1200px;
+	justify-content:center;
+	padding:0px !important;
+	padding-bottom:30px !important ;
+	
+}
+.grid{
+	padding:20px;
+	padding-top:5px;
+	margin-top:5px;
+}
+
+
+button{
+
+	margin-left:50px;	
+	width:150px;
+	border:0px !important;
+}
+.bttn{
+	
+	margin-top:50px;
+	display:flex;
+	justify-content:center;
+	margin-right:2px;
+}
+#cancel{
+	background-color:#535C68;
+	color:#ffffff;
+}
+#save{
+	background-color:#535C68;
+	color:#ffffff;
+}
+#cancel:hover{
+	background-color:#ffffff;
+	border:1px solid #FF132A!important;
+	color:#FF132A;
+	padding:0px;
+}
+#save:hover{
+	background-color:#ffffff;
+	border:1px solid #689F00!important;
+	color:#689F00;
+	padding:0px;		
+}
+.error {
+  color: #FF132A;
+  margin-left: 210px;
+ 
+}
+.pherror{
+	color: #FF132A;
+    position: relative;
+    top: 57px;
+}
+.merror{
+	color: #FF132A;
+	position: relative;
+	top: -42px;
+    left: 211px;
+
+}
+.ui-datepicker {
+    background: #2F3C48;
+    border: 1px solid #FF132A;
+    color: #ffffff;
+}
+.postop{
+	position:relative;
+	top:20px !important;
+}
+#Phoneid{
+	position: absolute;
+    top: 13px !important;
+    left: 224px;
+}
+.sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled {
+    cursor: text;
+    height: 100%;
+    width: 371px;
+    position: relative;
+    padding: 3px 25px 3px 0px;
+    left: 210px;
+    top: -42px;
+    width: 301px !important;
+    padding: 12px;
+    border: 1px solid #hviy67 !important;
+}
+#mangr{
+	position:relative;
+	top:8px;
+}

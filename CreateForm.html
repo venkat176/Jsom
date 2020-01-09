@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CreateForm</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/CreateForm.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+				
+		<script type="text/javascript" src="/_layouts/15/clienttemplates.js" ></script>
+		<script type="text/javascript" src="/_layouts/15/clientforms.js" ></script> 
+		<script type="text/javascript" src="/_layouts/15/clientpeoplepicker.js" ></script>	
+		<script type="text/javascript" src="/_layouts/15/autofill.js"></script> 
+
+		<script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script> 
+		<script type="text/javascript" src="/_layouts/15/sp.js"></script>
+			
+		<link type="text/css" rel="stylesheet"  href="/sites/Registration/SiteAssets/Employform/CSS/bootstrap.min.css">	
+		<link type="text/css" rel="stylesheet"  href="/sites/Registration/SiteAssets/Employform/CSS/font-awesome.min.css">
+		<link type="text/css" rel="stylesheet"  href="/sites/Registration/SiteAssets/Employform/CSS/jquery-ui.min.css" >
+		<link type="text/css" rel="stylesheet"  href="/sites/Registration/SiteAssets/Employform/CSS/jquery-ui.theme.min.css">
+		<link type="text/css" rel="stylesheet"  href="/sites/Registration/SiteAssets/Employform/CSS/CreatForm.css">
+	</head>		
+	<body>
+			
+	<div class="container">
+	    
+		   		<div class="header">
+					<h3> Personal Information </h3>   			
+			    </div>
+			<div class="grid">
+				<div class="row">
+					<div class="col">
+						<label for="FstName" class="text-primary">First Name:</label>
+						<input type="text" id="FstName" class="inputCls" value="" placeholder=" Firstname"><br>
+						<span id="fstVal"></span>
+				     </div>
+					<div class="col	">
+						<label for="LstName">Last Name:</label>
+						<input type="text" id="LstName" class="inputCls" value="" placeholder=" Lastname">
+						<span id="lstVal"></span>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col">
+						<label for="Status">Username:</label>
+						<input type="text" id="Usernameid" class="inputCls" placeholder=" username" disabled="disabled" ><span id="UsernameVal"></span>
+					</div>			
+					<div class="col">
+						<label for="DOB">D O B:</label>
+						<input type="text" autocomplete="off" id="Dobid" class="inputCls" value="" placeholder=" mm/dd/yyyy"><span id="DobVal"></span>
+					</div>	
+				</div>	
+					
+				<div class="row">
+					<div class="col">
+						<label for="Phone" class="postop">Phone:</label>
+						<input type="text" id="Phoneid" class="inputCls postop" value="" placeholder=" Phone no" maxlength="10"><span id="PhoneVal"></span>
+					</div>
+					<div class="col">
+						<label for="Address">Address:</label>
+						<textarea id="Addressid" rows="2" cols="20" maxlength="100" class="inputCls" value="" placeholder=" Enter text lessthan 100 charecters"></textarea>
+					</div>							
+				</div>
+		   </div>
+					<div class="header">
+					<h3>Professional Information</h3>	
+				</div>	
+			
+			<div class="grid">	
+				<div class="row">		
+					<div class="col">
+						<label for="employid">Employe ID:</label>
+						<input type="text" id="Empid" class="inputCls" value="" placeholder=" employe id"><span id="EmpidVal"></span>
+					</div>	
+					<div class="col">
+						<label for="Email">Email:</label>
+						<input type="text" id="Emailid" class="inputCls" value="" placeholder=" Email"><span id="EmailVal"></span>
+					</div>
+				</div>
+				<div class="row">		
+					<div class="col">
+						<label for="JoiningDate">Joining Date:</label>
+						<input type="text" autocomplete="off" id="Joinid" class="inputCls" value="" placeholder=" mm/dd/yyyy"><span id="JoinVal"></span>
+					</div>	
+					<!--<div class="col"></div>-->
+					<div class="col">
+						<label for="Employemanager" id="mangr">Employe Manager:</label>
+						<!--<input type="text" id="peoplePickerDiv" class="inputCls" placeholder=" Employe Manager">-->
+						<span id="peoplePickerDiv"></span>
+					</div>			
+				</div>
+				
+				<div class="row">
+					
+					<!--<div class="col">
+						<label for="Status">Status:</label>
+						<input type="text" id="Statusid" class="inputCls success" value =" Success" ><span id="StatusVal"></span>
+					</div>-->		
+				</div>
+		  </div>
+				
+		<div class="row bttn clearfix">
+			<button type="button" id="save">Save</button>
+			<button type="button" id="cancel">Exit</button>
+		</div>
+	 </div>	
+ 		
+		<!--<p id="userid"></p>
+		<p id="userKeys"></p>-->
+		
+		<!--<div class="footer clearfix">
+	
+		<p id="footertext">&copy;2019 Form by <q><b>Venkat</b></q></p>
+	
+	</div>-->
+	
+	</body>
+	
+</html>

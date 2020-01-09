@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>ViewForm</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="/sites/Registration/SiteAssets/Employform/JS/ViewForm.js"></script>
+		<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
+		<script type="text/javascript" src="/_layouts/15/sp.js"></script>
+		<link rel="stylesheet" type="text/css" href="/sites/Registration/SiteAssets/Employform/CSS/bootstrap.min.css">	
+		<link rel="stylesheet" type="text/css" href="/sites/Registration/SiteAssets/Employform/CSS/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="/sites/Registration/SiteAssets/Employform/CSS/jquery-ui.min.css" >
+		<link rel="stylesheet" type="text/css" href="/sites/Registration/SiteAssets/Employform/CSS/jquery-ui.theme.min.css">
+		<link rel="stylesheet" type="text/css" href="/sites/Registration/SiteAssets/Employform/CSS/ViewForm.css">
+		
+	</head>
+	
+	<body>
+	
+	<div class="container">
+	
+			<div class="header">
+				<h3> Personal Information</h3>   			
+		    </div>
+		    
+	   <div class="grid">
+			<div class="row">
+				<div class="col">
+					<label for="FstName">First Name:</label>
+					<input type="text" id="FstName" class="inputCls" value="" placeholder=" Firstname" disabled="disabled"><br>
+					<span id="fstVal"></span>
+			     </div>
+				<div class="col	">
+					<label for="LstName">Last Name:</label>
+					<input type="text" id="LstName" class="inputCls" value="" placeholder=" Lastname" disabled="disabled">
+					<span id="lstVal"></span>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col">
+					<label for="Status">Username:</label>
+					<input type="text" id="Usernameid" class="inputCls" placeholder=" username" disabled="disabled" ><span id="UsernameVal"></span>
+				</div>			
+				<div class="col">
+					<label for="DOB">D O B:</label>
+					<input type="text" autocomplete="off" id="Dobid" class="inputCls" value="" placeholder=" mm/dd/yyyy" disabled="disabled"><span id="DobVal"></span>
+				</div>	
+			</div>	
+				
+			<div class="row">
+				<div class="col">
+					<label for="Phone">Phone:</label>
+					<!--<input type="text" id="Phoneid" class="inputCls" value="" placeholder=" Phone no" maxlength="10" disabled="disabled"><span id="PhoneVal"></span>-->
+					<label id="Phoneid"></label>
+				</div>
+				<div class="col">
+					<label>Address:</label>
+					<!--<textarea id="Addressid" name="text" class="inputCls" rows="5" cols="50" disabled="disabled"></textarea>-->
+					<div id="Addressid" class="clearfix"></div>
+				</div>			
+			</div>
+		</div>
+			
+			<div class="header" id="mrtoop">
+				<h3>Professional Information</h3>	
+			</div>	
+			
+		<div class="grid">
+			<div class="row">		
+				<div class="col">
+					<label for="employid">Employe ID:</label>
+					<input type="text" id="Empid" class="inputCls" value="" placeholder=" employe id" disabled="disabled"><span id="EmpidVal"></span>
+				</div>	
+				<div class="col">
+					<label for="Email">Email:</label>
+					<input type="text" id="Emailid" class="inputCls" value="" placeholder=" Email" disabled="disabled"><span id="EmailVal"></span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<label for="JoiningDate">Joining Date:</label>
+					<input type="text" autocomplete="off" id="Joinid" class="inputCls" value="" placeholder=" mm/dd/yyyy" disabled="disabled"><span id="JoinVal"></span>
+				</div>	
+				<div class="col">
+					<label for="Employemanager">Employe Manager:</label>
+					<div id="peoplePickerElementId" class="inputCls clearfix" ></div>
+					<!--<span id="peoplepickerid"></span><span id="peoplePickerDiv"></span>-->
+				</div>			
+			</div>
+			
+			<div class="row">	
+				<div class="col">
+					<label for="Status">Status:</label>
+					<input type="text" id="Statusid" class="inputCls success" value =" Success" disabled="disabled" ><span id="StatusVal"></span>
+				</div>		
+			</div>
+		  </div>
+			
+		<div class="row bttn clearfix">
+			<!--<button type="button" id="save">Save</button>
+			<button type="button"  id="Approved">Approve</button>
+			<button type="button"  id="Rejected">Reject</button>
+			<button type="button"  id="Cancel">Cancel</button>-->
+			<button type="button"  id="Exit">Exit</button>
+		</div>
+	</div>	
+		
+		
+	<!--<div class="footer clearfix">
+	
+		<p id="footertext">&copy;2019 Form by <q><b>Venkat</b></q></p>
+	
+	</div>-->
+	
+	</body>
+	
+
+</html>
